@@ -66,7 +66,7 @@ function Skills() {
   return (
     <div className="pt-32">
       <h3 className="tracking-[20px] text-center uppercase text-white text-2xl">
-        Let's Start
+      <p>Let&apos;s Start</p>
       </h3>
 
       <ButtonWrapper>
