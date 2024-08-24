@@ -2,6 +2,8 @@
 import lottie from "lottie-web";
 import React, { useRef, useEffect } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Image from 'next/image';
+
 
 
 function Body() {
@@ -49,7 +51,7 @@ function Body() {
           </div>
 
           <div className="md:w-1/2 z-auto pt-2 md:mt-10">
-          <img src="/Crypto.png" alt="Description of Image" className="w-full h-auto" />
+          <Image src="/Crypto.png" alt="Description of Image" className="w-full h-auto" width={500} height={300} />
 
           </div>
         </div>

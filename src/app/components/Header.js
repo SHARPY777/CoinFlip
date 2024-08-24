@@ -4,8 +4,7 @@ import Link from 'next/link'
 
 function Header() {
   
-  
-    //window.location.href = "https://www.linkedin.com/in/prasad-shelar-a86399235";
+ 
   
   return (
     <header className="py-0">
@@ -29,7 +28,7 @@ function Header() {
 
         {/* Right Part */}
         <div className="flex space-x-3 items-center">
-           <Link href="https://www.linkedin.com/in/prasad-shelar-a86399235" passHref legacyBehavior>
+           <Link href="https://github.com/SHARPY777/CoinFlip" passHref legacyBehavior>
            <button className="hidden md:inline-block text-white bg-blue-600 px-4 py-2 rounded-full hover:bg-blue-800"
           >
             Download App
@@ -37,11 +36,6 @@ function Header() {
           </Link>
 
         
-          {/* <Link href="https://github.com/SHARPY777" passHref legacyBehavior>
-          <button className="border cursor-pointer border-gray-500 px-4 py-2 text-white rounded-full hover:bg-black">
-            G
-          </button>
-          </Link> */}
         </div>
       </div>
     </header>
