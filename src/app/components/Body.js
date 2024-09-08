@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 
 function Body() {
-  const animationData = require("../../../public/assets/projects.json");
+  
   
   const [text, count] = useTypewriter({
     words: ["Welcome to the Crypto Coinflip Arena", "Your Gateway to Thrilling Blockchain Bets", "Boost Your Crypto with Every Coin Flip Win"],
